@@ -4,6 +4,29 @@ import "./ProductDetail.css"
 function ProductDetail() {
   return (
     <div>
+        <div className='Contant'>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372767005/665/410372767005_1_3515.webp" class="d-block w-100" alt="..."/>
+                </div>
+                <div class="carousel-item">
+                <img src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372767005/665/410372767005_2_4957.webp" class="d-block w-100" alt="..."/>
+                </div>
+                <div class="carousel-item">
+                <img src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372767005/665/410372767005_4_3030.webp" class="d-block w-100" alt="..."/>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        <div className='Contant2'>
         <h3>Product Name</h3>
         <h5 className='Pline'>MRP</h5>
         <h6 className='Pline'>price inclusive all texes</h6>
@@ -20,8 +43,7 @@ function ProductDetail() {
 
         <input type="radio" className="btn-check" name="btnradio" id="btnradio3" autocomplete="off"/>
         <label className="btn btn-outline-dark" htmlFor="btnradio3">32</label>
-        <input type="radio" className="btn-check" name="btnradio" id="btnradio3" autocomplete="off"/>
-        <label className="btn btn-outline-dark" htmlFor="btnradio4">38</label>
+        
         </div>
         <br />
         <br />
@@ -81,33 +103,36 @@ function ProductDetail() {
             </ul>
             </div>
             </div>
+            </div>
+            </div>
             <h2 className='Pline'>You may also like this</h2>
-            <div class="card-group">
-            <div class="card">
-                <img src="" class="card-img-top" alt="..."/>
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-">Last updated 3 mins ago</small></p>
+            <div className="card-group">
+            <div className="card">
+                <img src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372755002/300/410372755002_1_7988.webp" className="card-img-top" alt=""/>
+                <div className="card-body">
+                <h5 className="card-title">MRP ₹52,999.00</h5>
+                <p className="card-text">COLOR: Gold</p>
+                <p className="card-text">1DR GOLD WOMAN SHOULDER BAG - SIZE M</p>
                 </div>
             </div>
-            <div class="card">
-                <img src="" class="card-img-top" alt="..."/>
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-body-">Last updated 3 mins ago</small></p>
+            <div className="card">
+                <img src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372753002/300/410372753002_1_9375.webp" className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <h5 className="card-title">MRP ₹52,999.00</h5>
+                <p className="card-text">COLOR: White</p>
+                <p className="card-text">1DR WHITE WOMAN SHOULDER BAG - SIZE M</p>
                 </div>
             </div>
-            <div class="card">
-                <img src="" class="card-img-top" alt="..."/>
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-body-">Last updated 3 mins ago</small></p>
+            <div className="card">
+                <img src="https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372531001/300/410372531001_1_9593.webp" className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <h5 className="card-title">MRP ₹49,999.00</h5>
+                <p className="card-text">COLOR: Grey.</p>
+                <p className="card-text">1DR GREY WOMAN SHOULDER BAG - SIZE M</p>
                 </div>
             </div>
             </div>
+            
                 
 
       

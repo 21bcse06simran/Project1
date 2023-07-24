@@ -1,0 +1,30 @@
+{
+    "product":
+    [
+        {
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372495009/665/410372495009_1_3276.webp",
+            "product":"2019 D-STRUKT MEDIUM TREATED BLUE MAN SLIM JEANS",
+            "mrp":"MRP ₹17,999.00",
+            "color":"Blue"
+        },
+        {
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372506009/665/410372506009_1_7707.webp",
+            "product":"2019 D-STRUKT MEDIUM TREATED BLUE MAN SLIM JEANS",
+            "mrp":"₹29,999.00",
+            "color":"Blue"
+        },
+        {
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410321637001/665/410321637001_1_2834.webp",
+            "product":"DIESEL DOUBLE UP BLACK WATCH DZ1982",
+            "mrp":"₹9,495.00",
+            "color":"Multicolor"
+        },
+        {
+            "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/qlNgW4/t.resize(w:500)/product/410372531001/665/410372531001_1_9174.webp",
+            "product":"1DR GREY WOMAN SHOULDER BAG - SIZE M",
+            "mrp":"₹49,999.00",
+            "color":"Grey"
+        }
+
+    ]
+}
